@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+        <title> Program Penggajian PT. Satu Malam 2 cinta </title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center"> PROGRAM PENGGAJIAN PT. SATU MALAM 2 CINTA </h1>
+            <hr><br>
+            <form onsubmit="return false" class="mb-sm-2">
+                <!-- input -->
+                <div class="mb-3 row text-end">
+                    <label for="nama pegawai" class="col-sm-5 col-form-label  "> Nama Pegawai : </label>
+                    <div class="col-sm-5">
+                      <input type="nama pegawai" class="form-control" id="nama pegawai">
+                    </div>
+                </div>
+                <div class="mb-3 row text-end">
+                    <label for="jamkerja" class="col-sm-5 col-form-label"> Jam Kerja : </label>
+                    <div class="col-sm-5">
+                      <input type="jamkerja" class="form-control" id="jamkerja">
+                    </div>
+                </div>
+                <div class="mb-3 row text-end">
+                    <label for="upahperjam" class="col-sm-5 col-form-label"> Upah Per Jam : </label>
+                    <div class="col-sm-5">
+                      <input type="upahperjam" class="form-control" id="upahperjam">
+                    </div>
+                </div>
+                <div class="mb-3 row text-end">
+                    <label for="anak" class="col-sm-5 col-form-label"> Anak : </label>
+                    <div class="col-sm-5">
+                      <input type="anak" class="form-control" id="anak">
+                    </div>
+                </div>
+
+                <!-- output -->
+                <div class="mb-3 row text-end">
+                    <label for="gaji" class="col-sm-5 col-form-label"> Gaji : </label>
+                    <div class="col-sm-5">
+                      <input type="gaji" class="form-control" id="gaji">
+                    </div>
+                </div>
+                <div class="mb-3 row text-end">
+                    <label for="tunjanak" class="col-sm-5 col-form-label"> Tunj. Anak 10% : </label>
+                    <div class="col-sm-5">
+                      <input type="tunjanak" class="form-control" id="tunjanak">
+                    </div>
+                </div>
+                <div class="mb-3 row text-end">
+                    <label for="totalgaji" class="col-sm-5 col-form-label"> Total Gaji : </label>
+                    <div class="col-sm-5">
+                      <input type="totalgaji" class="form-control" id="totalgaji">
+                    </div>
+                </div><hr>
+
+                <div class="text-center">
+                    <button class="btn-succes btn" type="submit" onclick="hasil()"> Proses </button>
+                    <button class="btn-succes btn" type="reset"> Reset </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+        <script src="2 program penggajian.js"> </script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        -->
+    </body>
+</html>
